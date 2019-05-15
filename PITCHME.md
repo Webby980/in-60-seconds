@@ -12,11 +12,11 @@
 
 @snap[west]
 @ul[spaced text-black]
-- Clean, pleasant to use, good documentation and less boilerplate
-- Now widely used in the Kotlin community 
+- Clean, pleasant to use and less boilerplate
+- Now more widely used in the Kotlin community 
 - Plenty of features
 - E.g. Easy mocking of private functions, constructor mocking, coroutine mocking etc
-  - Which would potentially be useful for new work
+- Which would potentially be useful for new work
 @ulend
 @snapend
 
@@ -39,20 +39,20 @@ This allows to skip specifying behavior for each case, while still allow to stub
 
 Mockk is 'strict' by default, unless specified otherwise
 
----?gist=webby980/0995ddcb94f54a3391da10b274794f9b&lang=Kotlin&title=Mockk Every vs. Mockito Whenever
+---?gist=webby980/28c6c341aae534e173b40e1a915e9e78&lang=Kotlin&title=Mockk Every vs. Mockito Whenever
 
 @[1-3](_Simple 'returns' example_)
-@[5-11](_Simple 'answers' example_)
+@[5-7](_Simple 'answers' example_)
 
 ---?gist=webby980/76d28732a5d3e5179efa7a59c5ea6855&lang=Kotlin&title=Mockk Verify Order vs. Mockito Verify Order
 
-@[1-5](_Mockito Verifying order example_)
-@[7-13](_Mockk Verifying order example_)
+@[1-7](_Mockito Verifying order example_)
+@[9-13](_Mockk Verifying order example_)
 
----?gist=webby980/63c973214b39b00acfa2c8986655eec6&lang=Kotlin&title=Mockk Verify Sequence vs. Mockito Verify Order
+---?gist=webby980/0abc9953e926b5513447c98bfbdd349f&lang=Kotlin&title=Mockk Verify Sequence vs. Mockito Verify Order
 
-@[1-7]
-@[9-15](_verifyOrder vs. verifySequence?_)
+@[1-8]
+@[11-17](_verifyOrder vs. verifySequence?_)
 
 ---?gist=webby980/bf59d670ab1bd81748f543e096ff34e4&lang=Kotlin&title=Mockk Slots vs. Mockito Captors
 
@@ -68,20 +68,15 @@ Mockk is 'strict' by default, unless specified otherwise
 @title[Conclusion?]
 
 @snap[north-west]
-### What have we leant from this POC?
+#### Opinions from a Mockito user
 @snapend
 
-@snap[west]
+@snap[south-west]
 @ul[spaced text-black]
-- Easy to use/less snags than Mockito
-- Now widely used in the Kotlin community = better documentation
+- Easier to use/less snags than Mockito e.g. chained calls
+- More functional approach which is suited to Kotlin
+- More human readable e.g. someMock wasNot Called (good use of infix function)
+- Slightly less docs but more appearing now it is being widely adopted (great github page/glossary)
 - Potentially our de facto mocking framework?
 @ulend
-@snapend
-
-<br>
-<br>
-
-@snap[south]
-![](assets/img/over.gif)
 @snapend
