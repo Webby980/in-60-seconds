@@ -31,8 +31,6 @@
 
 ---?gist=webby980/0090a88a048ad918e76034d28348f6ef&lang=Kotlin&title=A Simple Mockk
 
-@[1-2]
-
 A 'relaxed' mock is a mock that returns some simple value for all functions.
 <br>
 This allows to skip specifying behavior for each case, while still allow to stub things you need.
@@ -43,6 +41,11 @@ Mockk is 'strict' by default, unless specified otherwise
 
 @[1-3](_Simple 'returns' example_)
 @[5-7](_Simple 'answers' example_)
+
+---?gist=webby980/9bd183d98380472c20aaf510b40f90eb&lang=Kotlin&title=Mockk Verify vs. Mockito Verify
+
+@[1-3](_Simple verify example_)
+@[6-8](_Simple verify example_)
 
 ---?gist=webby980/ec2d90fe3352e7d2a3a2d445af9a7635&lang=Kotlin&title=Mockk Verify Order vs. Mockito Verify Order
 
