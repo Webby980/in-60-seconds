@@ -7,7 +7,7 @@
 #
 theme : sky
 
-transition : fade
+transition : slide
 
 #
 # Theme-Override Setting
