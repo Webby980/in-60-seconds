@@ -29,7 +29,7 @@
 
 ![](assets/img/example.gif)
 
----?gist=webby980/ec9ee81f56eca4151a1f6fb8dc54d7af&lang=Kotlin&title=A Simple Mockk
+---?gist=webby980/0090a88a048ad918e76034d28348f6ef&lang=Kotlin&title=A Simple Mockk
 
 @[1-2]
 
@@ -44,17 +44,17 @@ Mockk is 'strict' by default, unless specified otherwise
 @[1-3](_Simple 'returns' example_)
 @[5-7](_Simple 'answers' example_)
 
----?gist=webby980/76d28732a5d3e5179efa7a59c5ea6855&lang=Kotlin&title=Mockk Verify Order vs. Mockito Verify Order
+---?gist=webby980/ec2d90fe3352e7d2a3a2d445af9a7635&lang=Kotlin&title=Mockk Verify Order vs. Mockito Verify Order
 
 @[1-7](_Mockito Verifying order example_)
 @[9-13](_Mockk Verifying order example_)
 
----?gist=webby980/0abc9953e926b5513447c98bfbdd349f&lang=Kotlin&title=Mockk Verify Sequence vs. Mockito Verify Order
+---?gist=webby980/e3006d348b2d35d0b9e1a6283f1c722e&lang=Kotlin&title=Mockk Verify Sequence vs. Mockito Verify Order
 
 @[1-8]
 @[11-17](_verifyOrder vs. verifySequence?_)
 
----?gist=webby980/bf59d670ab1bd81748f543e096ff34e4&lang=Kotlin&title=Mockk Slots vs. Mockito Captors
+---?gist=webby980/a33ee14ef999c76ea955fa5a262b0b74&lang=Kotlin&title=Mockk Slots vs. Mockito Captors
 
 @[1-9](_Mockito Captors example_)
 @[11-19](_Mockk Slots example_)
