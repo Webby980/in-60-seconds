@@ -46,18 +46,18 @@ Mockk is 'strict' by default, unless specified otherwise
 
 ---?gist=webby980/ec2d90fe3352e7d2a3a2d445af9a7635&lang=Kotlin&title=Mockk Verify Order vs. Mockito Verify Order
 
-@[1-7](_Mockito Verifying order example_)
-@[9-13](_Mockk Verifying order example_)
+@[1-5](_Mockito Verifying order example_)
+@[7-11](_Mockk Verifying order example_)
 
 ---?gist=webby980/e3006d348b2d35d0b9e1a6283f1c722e&lang=Kotlin&title=Mockk Verify Sequence vs. Mockito Verify Order
 
-@[1-8]
-@[11-17](_verifyOrder vs. verifySequence?_)
+@[1-7]
+@[10-15](_verifyOrder vs. verifySequence?_)
 
 ---?gist=webby980/a33ee14ef999c76ea955fa5a262b0b74&lang=Kotlin&title=Mockk Slots vs. Mockito Captors
 
-@[1-9](_Mockito Captors example_)
-@[11-19](_Mockk Slots example_)
+@[1-6](_Mockito Captors example_)
+@[8-13](_Mockk Slots example_)
 
 ---?gist=webby980/372e7f0e630fb79e00c9b644e6e6d75a&lang=Kotlin&title=Mockk Chained Calls
 
