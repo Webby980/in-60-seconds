@@ -39,7 +39,7 @@ This allows to skip specifying behavior for each case, while still allow to stub
 
 Mockk is 'strict' by default, unless specified otherwise
 
----?gist=webby980/28c6c341aae534e173b40e1a915e9e78&lang=Kotlin&title=Mockk Every vs. Mockito Whenever
+---?gist=webby980/3d1898a1fe6706d7ceecf46ffa2a96c2&lang=Kotlin&title=Mockk Every vs. Mockito Whenever
 
 @[1-3](_Simple 'returns' example_)
 @[5-7](_Simple 'answers' example_)
@@ -80,3 +80,10 @@ Mockk is 'strict' by default, unless specified otherwise
 - Potentially our de facto mocking framework?
 @ulend
 @snapend
+
+---
+@title[Questions?]
+
+## **Questions?**
+
+![](assets/img/example.gif)
