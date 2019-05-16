@@ -7,7 +7,7 @@
 #
 theme : sky
 
-transition : zoom
+transition : convex
 
 #
 # Theme-Override Setting
