@@ -50,12 +50,12 @@ Mockk is 'strict' by default, unless specified otherwise
 ---?gist=webby980/a33ee14ef999c76ea955fa5a262b0b74&lang=Kotlin&title=MockK Slots vs. Mockito Captors
 
 @[1-6](_Mockito Captors example_)
-@[8-13](_Mockk Slots example_)
+@[8-13](_MockK Slots example_)
 
 ---?gist=webby980/ec2d90fe3352e7d2a3a2d445af9a7635&lang=Kotlin&title=MockK Verify Order vs. Mockito Verify Order
 
 @[1-5](_Mockito Verifying order example_)
-@[7-11](_Mockk Verifying order example_)
+@[7-11](_MockK Verifying order example_)
 
 ---?gist=webby980/e3006d348b2d35d0b9e1a6283f1c722e&lang=Kotlin&title=MockK Verify Sequence vs. Mockito Verify Order
 
