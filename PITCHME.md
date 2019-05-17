@@ -16,7 +16,6 @@
 - Now more widely used in the Kotlin community 
 - Plenty of features
 - E.g. Easy mocking of private functions, constructor mocking, coroutine mocking etc
-- Which would potentially be useful for new work
 @ulend
 @snapend
 
@@ -31,9 +30,9 @@
 
 ---?gist=webby980/0090a88a048ad918e76034d28348f6ef&lang=Kotlin&title=A Simple MockK
 
-A 'relaxed' mock is a mock that returns some simple value for all functions.
+A 'relaxed' mock is a mock that returns some simple value for all functions
 <br>
-This allows to skip specifying behavior for each case, while still allow to stub things you need.
+This allows to skip specifying behavior for each case, while still allow to stub things you need
 
 Mockk is 'strict' by default, unless specified otherwise
 
